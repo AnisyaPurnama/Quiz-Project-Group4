@@ -15,6 +15,7 @@
 - [listeners](#listeners)
   - [change-separator.js](#srclistenerschange-separatorjs)
   - [inputting.js](#srclistenersinputtingjs)
+  - [reset-quiz.js](#srclistenersreset-quizjs)
 - [logic](#logic)
   - [reverse.js](#srclogicreversejs)
 - [views](#views)
@@ -114,6 +115,10 @@ calls the reverseHandler when a user types in the input field"></a>
 ## user input
 
 calls the reverseHandler when a user types in the input field
+
+---
+
+### [./src/listeners/reset-quiz.js](./src/listeners/reset-quiz.js?study)
 
 [TOP](#DOCS)
 
