@@ -15,6 +15,7 @@
 - [listeners](#listeners)
   - [change-separator.js](#srclistenerschange-separatorjs)
   - [inputting.js](#srclistenersinputtingjs)
+  - [next.js](#srclistenersnextjs)
 - [logic](#logic)
   - [reverse.js](#srclogicreversejs)
 - [views](#views)
@@ -114,6 +115,10 @@ calls the reverseHandler when a user types in the input field"></a>
 ## user input
 
 calls the reverseHandler when a user types in the input field
+
+---
+
+### [./src/listeners/next.js](./src/listeners/next.js?study)
 
 [TOP](#DOCS)
 
