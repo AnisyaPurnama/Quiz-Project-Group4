@@ -7,8 +7,7 @@
 <!-- BEGIN TOC -->
 
 - [handlers](#handlers)
-  - [artify.js](#srchandlersartifyjs)
-  - [change-separator.js](#srchandlerschange-separatorjs)
+  - [get-result.js](#srchandlersget-resultjs)
 - [init](#init)
   - [index.js](#srcinitindexjs)
 - [listeners](#listeners)
@@ -38,31 +37,7 @@ Handler function define user interactions. They will:
 
 ---
 
-### [./src/handlers/artify.js](./src/handlers/artify.js?study)
-
-<a name="artifyHandler"></a>
-
-## artifyHandler
-
-creates a mirror-image rendering of the user input and displays the growing artwork
-
-| Param | Type               | Description                                                |
-| ----- | ------------------ | ---------------------------------------------------------- |
-| event | <code>Event</code> | triggered whenever a user releases a key in the input area |
-
----
-
-### [./src/handlers/change-separator.js](./src/handlers/change-separator.js?study)
-
-<a name="changeSeparatorHandler"></a>
-
-## changeSeparatorHandler
-
-changes the program's separator value
-
-| Param | Type               | Description                                                 |
-| ----- | ------------------ | ----------------------------------------------------------- |
-| event | <code>Event</code> | triggered whenever a user types in the separator input area |
+### [./src/handlers/get-result.js](./src/handlers/get-result.js?study)
 
 [TOP](#DOCS)
 
@@ -189,18 +164,5 @@ each line in the provided array will be mirrored around the separator
 ---
 
 ## [./src/data.js](./src/data.js?study)
-
-<a name="data"></a>
-
-## data
-
-data that is saved and used between user interactionss
-
-**Properties**
-
-| Name      | Type                              | Description                          |
-| --------- | --------------------------------- | ------------------------------------ |
-| separator | <code>string</code>               | the full user artwork                |
-| lines     | <code>Array.&lt;string&gt;</code> | all the lines that have been entered |
 
 <!-- END DOCS -->
