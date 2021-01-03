@@ -9,11 +9,13 @@
 - [handlers](#handlers)
   - [artify.js](#srchandlersartifyjs)
   - [change-separator.js](#srchandlerschange-separatorjs)
+  - [next.js](#srchandlersnextjs)
 - [init](#init)
   - [index.js](#srcinitindexjs)
 - [listeners](#listeners)
   - [change-separator.js](#srclistenerschange-separatorjs)
   - [inputting.js](#srclistenersinputtingjs)
+  - [next.js](#srclistenersnextjs)
 - [logic](#logic)
   - [reverse.js](#srclogicreversejs)
 - [views](#views)
@@ -64,6 +66,10 @@ changes the program's separator value
 | ----- | ------------------ | ----------------------------------------------------------- |
 | event | <code>Event</code> | triggered whenever a user types in the separator input area |
 
+---
+
+### [./src/handlers/next.js](./src/handlers/next.js?study)
+
 [TOP](#DOCS)
 
 ---
@@ -109,6 +115,10 @@ calls the reverseHandler when a user types in the input field"></a>
 ## user input
 
 calls the reverseHandler when a user types in the input field
+
+---
+
+### [./src/listeners/next.js](./src/listeners/next.js?study)
 
 [TOP](#DOCS)
 
@@ -190,6 +200,16 @@ each line in the provided array will be mirrored around the separator
 
 ## [./src/data.js](./src/data.js?study)
 
+## Constants
+
+<dl>
+<dt><a href="#data">data</a></dt>
+<dd><p>data that is saved and used between user interactionss</p>
+</dd>
+<dt><a href="#quizData">quizData</a></dt>
+<dd></dd>
+</dl>
+
 <a name="data"></a>
 
 ## data
@@ -202,5 +222,9 @@ data that is saved and used between user interactionss
 | --------- | --------------------------------- | ------------------------------------ |
 | separator | <code>string</code>               | the full user artwork                |
 | lines     | <code>Array.&lt;string&gt;</code> | all the lines that have been entered |
+
+<a name="quizData"></a>
+
+## quizData
 
 <!-- END DOCS -->
