@@ -9,11 +9,19 @@
 - [handlers](#handlers)
   - [artify.js](#srchandlersartifyjs)
   - [change-separator.js](#srchandlerschange-separatorjs)
+  - [get-new-question.js](#srchandlersget-new-questionjs)
+  - [quit.js](#srchandlersquitjs)
+  - [try-again.js](#srchandlerstry-againjs)
+  - [update-answer-indicator.js](#srchandlersupdate-answer-indicatorjs)
 - [init](#init)
   - [index.js](#srcinitindexjs)
 - [listeners](#listeners)
   - [change-separator.js](#srclistenerschange-separatorjs)
+  - [get-new-question.js](#srclistenersget-new-questionjs)
   - [inputting.js](#srclistenersinputtingjs)
+  - [quit.js](#srclistenersquitjs)
+  - [try-again.js](#srclistenerstry-againjs)
+  - [update-answer-indicator.js](#srclistenersupdate-answer-indicatorjs)
 - [logic](#logic)
   - [reverse.js](#srclogicreversejs)
 - [views](#views)
@@ -64,6 +72,22 @@ changes the program's separator value
 | ----- | ------------------ | ----------------------------------------------------------- |
 | event | <code>Event</code> | triggered whenever a user types in the separator input area |
 
+---
+
+### [./src/handlers/get-new-question.js](./src/handlers/get-new-question.js?study)
+
+---
+
+### [./src/handlers/quit.js](./src/handlers/quit.js?study)
+
+---
+
+### [./src/handlers/try-again.js](./src/handlers/try-again.js?study)
+
+---
+
+### [./src/handlers/update-answer-indicator.js](./src/handlers/update-answer-indicator.js?study)
+
 [TOP](#DOCS)
 
 ---
@@ -101,6 +125,10 @@ calls handler that changes the mirror-arts separator
 
 ---
 
+### [./src/listeners/get-new-question.js](./src/listeners/get-new-question.js?study)
+
+---
+
 ### [./src/listeners/inputting.js](./src/listeners/inputting.js?study)
 
 <a name="user input
@@ -109,6 +137,18 @@ calls the reverseHandler when a user types in the input field"></a>
 ## user input
 
 calls the reverseHandler when a user types in the input field
+
+---
+
+### [./src/listeners/quit.js](./src/listeners/quit.js?study)
+
+---
+
+### [./src/listeners/try-again.js](./src/listeners/try-again.js?study)
+
+---
+
+### [./src/listeners/update-answer-indicator.js](./src/listeners/update-answer-indicator.js?study)
 
 [TOP](#DOCS)
 
@@ -190,6 +230,16 @@ each line in the provided array will be mirrored around the separator
 
 ## [./src/data.js](./src/data.js?study)
 
+## Constants
+
+<dl>
+<dt><a href="#data">data</a></dt>
+<dd><p>data that is saved and used between user interactionss</p>
+</dd>
+<dt><a href="#quizData">quizData</a></dt>
+<dd></dd>
+</dl>
+
 <a name="data"></a>
 
 ## data
@@ -202,5 +252,9 @@ data that is saved and used between user interactionss
 | --------- | --------------------------------- | ------------------------------------ |
 | separator | <code>string</code>               | the full user artwork                |
 | lines     | <code>Array.&lt;string&gt;</code> | all the lines that have been entered |
+
+<a name="quizData"></a>
+
+## quizData
 
 <!-- END DOCS -->
