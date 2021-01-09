@@ -23,6 +23,7 @@
 export const data = {
   separator: '|',
   lines: [],
+  availableQuestions: [],
 };
 
 // here's a suggestion for your game's state, see if this works for your team
@@ -87,3 +88,5 @@ const quizData = {
     },
   ],
 };
+
+
